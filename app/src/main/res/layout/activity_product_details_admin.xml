@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:scrollbars="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+
+    android:id="@+id/detailsLL"
+    android:orientation="vertical"
+    tools:context=".Product_detail">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Product Name"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:textSize="25sp" />
+    <TextView
+        android:id="@+id/nameTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="32"
+        android:textSize="25sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Product Price"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:gravity="center"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/priiceTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="32"
+        android:textSize="25sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:text="Product Brand"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/brandTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="32"
+        android:textSize="25sp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:text="Product Quantity"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/quantityTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="32"
+        android:textSize="25sp" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Product info"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:textSize="25sp" />
+    <TextView
+        android:id="@+id/infoTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical"
+        android:text="32"
+        android:textSize="25sp" />
+    <Button
+        android:layout_width="match_parent"
+        android:text="Back"
+        android:onClick="backTolist"
+        android:layout_marginTop="15sp"
+        android:textSize="20sp"
+        android:textAllCaps="false"
+        android:layout_height="wrap_content" />
+</LinearLayout>

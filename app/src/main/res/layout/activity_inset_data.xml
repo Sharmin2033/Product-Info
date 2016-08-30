@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".InsertData">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:textSize="25sp"
+            android:text="@string/name"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:layout_width="250sp"
+            android:hint="@string/enter_name"
+            android:id="@+id/nameInsetET"
+            android:gravity="center"
+            android:textSize="25sp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:textSize="25sp"
+            android:text="@string/price"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:layout_width="250sp"
+            android:inputType="number"
+            android:hint="@string/enter_price"
+            android:id="@+id/priceInsertET"
+            android:gravity="center"
+            android:textSize="25sp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:textSize="25sp"
+            android:text="@string/quantity"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:layout_width="250sp"
+            android:hint="@string/enter_quantity"
+            android:id="@+id/quantityInsertET"
+            android:gravity="center"
+            android:inputType="numberDecimal"
+            android:textSize="25sp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:textSize="25sp"
+            android:text="@string/brand"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:layout_width="250sp"
+            android:hint="@string/enter_brand"
+            android:gravity="center"
+            android:id="@+id/brandInsertET"
+            android:textSize="25sp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:textSize="25sp"
+            android:text="@string/info"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:layout_width="250sp"
+            android:hint="@string/enter_info"
+            android:gravity="center"
+            android:textSize="25sp"
+            android:id="@+id/infoInertET"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:text="@string/insert_product"
+        android:gravity="center"
+        android:textAllCaps="false"
+        android:id="@+id/updateProductBTN"
+        android:textSize="25sp"
+        android:layout_marginTop="30sp"
+        android:onClick="insertProduct"
+        android:padding="10sp"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_width="match_parent"
+        android:text="Back"
+        android:gravity="center"
+        android:textAllCaps="false"
+        android:id="@+id/back"
+        android:textSize="25sp"
+        android:layout_marginTop="30sp"
+        android:onClick="backToAdmin"
+        android:padding="10sp"
+        android:layout_height="wrap_content" />
+</LinearLayout>
